@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Acme Garbage Colletor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="50dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Selecione uma das opções"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="@id/title"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/buttonSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Agendar Coleta"
+        app:layout_constraintTop_toTopOf="@id/subTitle"
+        android:textSize="20dp"
+        android:padding="50px"
+        android:backgroundTint="#4CAF50"
+        />
+
+    <Button
+        android:id="@+id/buttonColletor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="150dp"
+        android:text="Verificar dias de coleta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/buttonSchedule"
+        android:textSize="14dp"
+        android:padding="50px"
+        android:backgroundTint="#009688"
+        />
+
+    <TextView
+        android:id="@+id/tv_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:lineSpacingExtra="4sp"
+        android:text="Desenvolvido por RM 86749"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+   />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

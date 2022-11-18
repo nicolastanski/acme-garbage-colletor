@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Acme Garbage Colletor</string>
+
+    <string-array name="residuos">
+        <item>Metal</item>
+        <item>Seco</item>
+        <item>Diverso</item>
+    </string-array>
+
+    <string-array name="region">
+        <item>Zona Centro</item>
+        <item>Zona Norte</item>
+        <item>Zona Sul</item>
+        <item>Zona Leste</item>
+        <item>Zona Oeste</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Segunda-feira</item>
+        <item>Quarta-Feira</item>
+        <item>Sexta-Feira</item>
+    </string-array>
+
+    <string-array name="hours">
+        <item>10h</item>
+        <item>12h</item>
+        <item>16h</item>
+    </string-array>
+
+</resources>
